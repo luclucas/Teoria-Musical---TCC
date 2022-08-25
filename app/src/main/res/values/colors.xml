@@ -12,4 +12,5 @@
     <color name="botao_conteudo">#03627D</color>
     <color name="cor_fundo">#FFF9F3</color>
     <color name="back">#107A98</color>
+    <color name="app_bar">#1F0953</color>
 </resources>
