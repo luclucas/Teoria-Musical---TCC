@@ -18,11 +18,16 @@
         <entry key="..\:/Programas/projetosAndroid/Teoria_Musical_TCC/app/src/main/res/layout/activity_modulo_i.xml" value="0.25" />
         <entry key="..\:/Programas/projetosAndroid/Teoria_Musical_TCC/app/src/main/res/layout/activity_modulo_ii.xml" value="0.12273550724637682" />
         <entry key="..\:/Programas/projetosAndroid/Teoria_Musical_TCC/app/src/main/res/layout/activity_tela_quiz.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable-v24/rating_cheio.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/rating_customizado.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/rating_vazio.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/borda_botao.xml" value="0.162" />
         <entry key="app/src/main/res/drawable/clavesol_background.xml" value="0.162" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16354166666666667" />
-        <entry key="app/src/main/res/layout/activity_modulo_i.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/card_tela_inicial.xml" value="0.16354166666666667" />
+        <entry key="app/src/main/res/layout/activity_modulo_i.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/card_tela_inicial.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/rating_cheio.xml" value="0.16354166666666667" />
+        <entry key="app/src/main/res/layout/rating_vazio.xml" value="0.16354166666666667" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/clavesol.xml" value="0.162" />
       </map>
     </option>
