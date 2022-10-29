@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.moduloIV.ModuloIV">
+    tools:context=".view.moduloI.TelaIntroducao">
 
-    <TextView
-        android:id="@+id/textView4"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/botaoOuvir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Modulo 4"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="340dp" />
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="39dp"
+        android:text="Ouça-me"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

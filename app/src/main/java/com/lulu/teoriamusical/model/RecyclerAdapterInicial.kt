@@ -1,4 +1,4 @@
-package com.lulu.teoriamusical
+package com.lulu.teoriamusical.model
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.lulu.teoriamusical.R
 
 class RecyclerAdapterInicial: RecyclerView.Adapter<RecyclerAdapterInicial.ViewHolder>() {
 
@@ -13,10 +14,12 @@ class RecyclerAdapterInicial: RecyclerView.Adapter<RecyclerAdapterInicial.ViewHo
 
     private val titulos = arrayOf("Módulo I", "Módulo II", "Módulo III", "Módulo IV")
     private val descricoes = arrayOf("Conteudo I", "Conteudo II", "Conteudo III", "Conteudo IV")
-    private val imagens = arrayOf(R.drawable.img_semibreve, R.drawable.img_minima,
-    R.drawable.img_seminima, R.drawable.img_colcheia)
+    private val imagens = arrayOf(
+        R.drawable.img_semibreve, R.drawable.img_minima,
+        R.drawable.img_seminima, R.drawable.img_colcheia
+    )
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType:Int):RecyclerAdapterInicial.ViewHolder{
+    override fun onCreateViewHolder(parent: ViewGroup, viewType:Int): ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.card_tela_inicial, parent, false)
         return ViewHolder(v, mListener)
     }
@@ -25,7 +28,7 @@ class RecyclerAdapterInicial: RecyclerView.Adapter<RecyclerAdapterInicial.ViewHo
         return titulos.size
     }
 
-    override fun onBindViewHolder(holder: RecyclerAdapterInicial.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.tituloItem.text = titulos[position]
         holder.descricaoItem.text = descricoes[position]
         holder.imagemItem.setImageResource(imagens[position])

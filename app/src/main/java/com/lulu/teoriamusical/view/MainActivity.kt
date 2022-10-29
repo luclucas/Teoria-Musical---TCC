@@ -1,4 +1,4 @@
-package com.lulu.teoriamusical
+package com.lulu.teoriamusical.view
 
 import android.app.Activity
 import android.content.Intent
@@ -6,10 +6,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.lulu.teoriamusical.R
+import com.lulu.teoriamusical.model.RecyclerAdapterInicial
+import com.lulu.teoriamusical.view.moduloI.ModuloI
+import com.lulu.teoriamusical.view.moduloII.ModuloII
+import com.lulu.teoriamusical.view.moduloIII.ModuloIII
+import com.lulu.teoriamusical.view.moduloIV.ModuloIV
 
 class MainActivity : AppCompatActivity() {
 
-    private val classes = arrayOf(ModuloI::class.java, ModuloII::class.java, ModuloIII::class.java,
+    private val classes = arrayOf(
+        ModuloI::class.java, ModuloII::class.java, ModuloIII::class.java,
     ModuloIV::class.java)
 
     private var layoutManager: RecyclerView.LayoutManager? = null

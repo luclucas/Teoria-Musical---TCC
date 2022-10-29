@@ -29,6 +29,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="70dp"
         android:background="@drawable/borda_botao"
+        android:onClick="irIntroducao"
         android:padding="10dp"
         android:text="Introdução"
         android:textAlignment="center"
@@ -50,9 +51,10 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/cor_fundo"
-        android:textSize="15sp"
+        android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="irCaracteristicas"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton3"

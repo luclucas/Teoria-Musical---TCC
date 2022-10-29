@@ -14,22 +14,37 @@
         android:theme="@style/Theme.TeoriaMusical"
         tools:targetApi="31">
         <activity
-            android:name=".TelaQuiz"
+            android:name=".view.moduloI.TelaCaracteristicas"
             android:exported="false" />
         <activity
-            android:name=".ModuloIV"
+            android:name=".view.moduloI.TelaIntroducao"
             android:exported="false" />
         <activity
-            android:name=".ModuloIII"
+            android:name=".view.moduloI.TelaDuracoes"
             android:exported="false" />
         <activity
-            android:name=".ModuloII"
+            android:name=".view.moduloI.TelaClaveFa"
             android:exported="false" />
         <activity
-            android:name=".ModuloI"
+            android:name=".view.moduloI.TelaNotas"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.TelaQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".view.moduloIV.ModuloIV"
+            android:exported="false" />
+        <activity
+            android:name=".view.moduloIII.ModuloIII"
+            android:exported="false" />
+        <activity
+            android:name=".view.moduloII.ModuloII"
+            android:exported="false" />
+        <activity
+            android:name=".view.moduloI.ModuloI"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
