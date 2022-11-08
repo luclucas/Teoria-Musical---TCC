@@ -14,7 +14,13 @@
         android:theme="@style/Theme.TeoriaMusical"
         tools:targetApi="31">
         <activity
-            android:name=".view.moduloI.TelaCaracteristicas"
+            android:name=".view.moduloI.caracteristicas.TelaCaracteristicasIII"
+            android:exported="false" />
+        <activity
+            android:name=".view.moduloI.caracteristicas.TelaCaracteristicasII"
+            android:exported="false" />
+        <activity
+            android:name=".view.moduloI.caracteristicas.TelaCaracteristicas"
             android:exported="false" />
         <activity
             android:name=".view.moduloI.TelaIntroducao"
@@ -26,7 +32,7 @@
             android:name=".view.moduloI.TelaClaveFa"
             android:exported="false" />
         <activity
-            android:name=".view.moduloI.TelaNotas"
+            android:name=".view.moduloI.notas.TelaNotas"
             android:exported="false" />
         <activity
             android:name=".view.TelaQuiz"

@@ -13,4 +13,7 @@
     <color name="cor_fundo">#FFF9F3</color>
     <color name="back">#107A98</color>
     <color name="app_bar">#1F0953</color>
+    <color name="cinza">#a4a4a4</color>
+    <color name="verde">#42aa17</color>
+    <color name="vermelho">#ff0000</color>
 </resources>

@@ -6,7 +6,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import com.lulu.teoriamusical.R
+import com.lulu.teoriamusical.enums.Telas
 import com.lulu.teoriamusical.view.TelaQuiz
+import com.lulu.teoriamusical.view.moduloI.caracteristicas.TelaCaracteristicas
+import com.lulu.teoriamusical.view.moduloI.notas.TelaNotas
+
 class ModuloI : AppCompatActivity() {
 
     lateinit var botaoQuiz: Button
@@ -27,8 +31,19 @@ class ModuloI : AppCompatActivity() {
     }
 
     fun irCaracteristicas (view: View){
-        val i = Intent(this,TelaCaracteristicas::class.java)
-        startActivity(i)
+        retornarIntent(Telas.CARACTERISTICAS)
     }
 
-}
+    fun irNotas(view: View){
+        retornarIntent(Telas.NOTAS)
+    }
+
+    private fun retornarIntent(t: Telas){
+        when (t){
+            Telas.CARACTERISTICAS -> startActivity(Intent(this, TelaCaracteristicas::class.java))
+            Telas.NOTAS -> startActivity(Intent(this, TelaNotas::class.java))
+        }
+
+        }
+    }
+

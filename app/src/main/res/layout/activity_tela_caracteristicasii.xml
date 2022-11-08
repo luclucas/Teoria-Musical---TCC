@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.moduloI.caracteristicas.TelaCaracteristicasII"
+    android:background="@color/cor_fundo">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:text="A música se dá pela combinação de sons.\n\nAs principais características dela são:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/appCompatTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="left"
+            android:text="@string/melodia_caracteristicas"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/appCompatTextView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:text="Toque no botão abaixo e ouça um trecho da melodia da música 'La vie en rose'"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appCompatTextView2"
+            tools:layout_editor_absoluteY="254dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao_melodia"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appCompatTextView5"
+            android:background="@drawable/borda_botao"
+            android:textColor="@color/amarelo"
+            android:textAllCaps="false"
+            android:textSize="@dimen/tamanho_texto"
+            android:text="Melodia"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/appCompatTextView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="left"
+            android:text="@string/harmonia_caracteristicas"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/botao_melodia"
+            tools:layout_editor_absoluteY="318dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@id/appCompatTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Toque no botão abaixo para ouvir o acorde de Dó maior, um exemplo de harmonia:"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appCompatTextView3" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao_violao"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/borda_botao"
+            android:text="Dó"
+            android:textAllCaps="false"
+            android:textColor="@color/amarelo"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appCompatTextView4" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/ritmo_caracteristicas"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/botao_violao" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao_car_avan_ii"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/botao_voltar_avancar"
+            android:backgroundTint="@color/verde"
+            android:text="Avançar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao_car_volt_ii"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/botao_voltar_avancar"
+            android:backgroundTint="@color/vermelho"
+            android:text="Voltar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -2,5 +2,11 @@
     <string name="app_name">Teoria Musical</string>
 
     <string name="melodia_caracteristicas"><b>MELODIA</b> - conjunto de sons dispostos em ordem sucessiva. É aquilo que pode ser cantado e em uma música pode haver mais de uma melodia ao mesmo tempo (visto de forma horizontal).</string>
-    <string name="harmonia_caracteristicas"><b>HARMONIA</b> - conjunto de sons tocados ao mesmo tempo e faz a base da melodia (visto de forma vertical)</string>
+    <string name="harmonia_caracteristicas"><b>HARMONIA</b> - conjunto de sons tocados ao mesmo tempo e faz a base da melodia (visto de forma vertical).</string>
+    <string name="ritmo_caracteristicas"><b>RITMO</b> - ordem e proporção em que estão dispostos os sons, servindo para a marcação do tempo da música.</string>
+    <string name="altura_caracteristicas"><b>ALTURA</b> - determina se o som é grave ou agudo. <b>NÃO CONFUNDA COM VOLUME</b></string>
+    <string name="duracao_caracteristicas"><b>DURAÇÃO</b> - é o tempo em que o som soa.</string>
+    <string name="intensidade_caracteristicas"><b>INTENSIDADE</b> - é o volume sonoro.</string>
+    <string name="timbre_caracteristicas"><b>TIMBRE</b> - é a característica de cada som. Embora diferentes instrumentos (corpos) possam tocar a mesma nota, o som terá diferenças.</string>
+
 </resources>

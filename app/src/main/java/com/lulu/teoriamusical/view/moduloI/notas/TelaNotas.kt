@@ -1,4 +1,4 @@
-package com.lulu.teoriamusical.view.moduloI
+package com.lulu.teoriamusical.view.moduloI.notas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
