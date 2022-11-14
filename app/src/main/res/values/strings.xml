@@ -8,5 +8,7 @@
     <string name="duracao_caracteristicas"><b>DURAÇÃO</b> - é o tempo em que o som soa.</string>
     <string name="intensidade_caracteristicas"><b>INTENSIDADE</b> - é o volume sonoro.</string>
     <string name="timbre_caracteristicas"><b>TIMBRE</b> - é a característica de cada som. Embora diferentes instrumentos (corpos) possam tocar a mesma nota, o som terá diferenças.</string>
-
+    <string name="notas_notas">As notas se dão pela <b>altura</b> do som. Eu sei que é tentador, mas não confunda com volume.</string>
+    <string name="notas_do_re"><b>Dó Ré Mi Fá Sol Lá Si</b></string>
+    <string name="notas_not_ingl"><b>C D E F G A B</b></string>
 </resources>

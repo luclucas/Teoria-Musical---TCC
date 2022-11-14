@@ -16,4 +16,5 @@
     <color name="cinza">#a4a4a4</color>
     <color name="verde">#42aa17</color>
     <color name="vermelho">#ff0000</color>
+    <color name="cor_texto">#000000</color>
 </resources>
