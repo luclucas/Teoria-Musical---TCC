@@ -23,57 +23,58 @@
          />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
-        android:layout_width="@dimen/largura_botao"
-        android:layout_height="115dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="70dp"
-        android:background="@drawable/borda_botao"
-        android:onClick="irIntroducao"
-        android:padding="10dp"
-        android:text="Introdução"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/cor_fundo"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton2"
         android:layout_width="@dimen/largura_botao"
         android:layout_height="115dp"
         android:layout_marginTop="70dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
         android:background="@drawable/borda_botao"
+        android:onClick="irCaracteristicas"
         android:padding="10dp"
         android:text="Características"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/cor_fundo"
         android:textSize="13sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="irCaracteristicas"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton3"
         android:layout_width="@dimen/largura_botao"
         android:layout_height="115dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/borda_botao"
         android:drawableTop="@mipmap/notas"
+        android:onClick="irNotas"
         android:padding="10dp"
         android:text="Notas"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/cor_fundo"
         android:textSize="15sp"
+       app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton1"
+        android:layout_width="@dimen/largura_botao"
+        android:layout_height="115dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/borda_botao"
+        android:onClick="irPauta"
+        android:padding="10dp"
+        android:text="Pauta"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/cor_fundo"
+        android:textSize="15dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/appCompatButton"
-        android:onClick="irNotas"/>
+        app:layout_constraintTop_toBottomOf="@id/appCompatButton2" />
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton4"
@@ -90,7 +91,7 @@
         android:textColor="@color/cor_fundo"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/appCompatButton2" />
+        app:layout_constraintTop_toBottomOf="@id/appCompatButton3" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton5"
@@ -107,15 +108,14 @@
         android:textColor="@color/cor_fundo"
         android:textSize="15sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/appCompatButton3" />
-
+        app:layout_constraintTop_toBottomOf="@id/appCompatButton1" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/appCompatButton6"
         android:layout_width="@dimen/largura_botao"
         android:layout_height="110dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginEnd="32dp"
         android:background="@drawable/borda_botao"
         android:drawableTop="@mipmap/colcheia_duracao"
         android:padding="10dp"
@@ -132,9 +132,8 @@
         android:layout_width="0dp"
         android:layout_height="80dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="60dp"
         android:background="@drawable/borda_botao"
         android:backgroundTint="@color/marrom"
         android:onClick="quiz"
@@ -143,8 +142,7 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatButton5" />
+        app:layout_constraintStart_toStartOf="parent" />
 
   </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

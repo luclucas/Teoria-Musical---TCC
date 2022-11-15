@@ -25,11 +25,6 @@ class ModuloI : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun irIntroducao (view: View){
-        val i = Intent(this,TelaIntroducao::class.java)
-        startActivity(i)
-    }
-
     fun irCaracteristicas (view: View){
         retornarIntent(Telas.CARACTERISTICAS)
     }
@@ -38,12 +33,12 @@ class ModuloI : AppCompatActivity() {
         retornarIntent(Telas.NOTAS)
     }
 
-    private fun retornarIntent(t: Telas){
-        when (t){
-            Telas.CARACTERISTICAS -> startActivity(Intent(this, TelaCaracteristicas::class.java))
-            Telas.NOTAS -> startActivity(Intent(this, TelaNotas::class.java))
-        }
+    fun irPauta(view:View){
+        retornarIntent(Telas.PAUTA)
+    }
 
+    private fun retornarIntent(t: Telas){
+        startActivity(Intent(this, t.e))
         }
     }
 
