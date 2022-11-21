@@ -39,6 +39,11 @@
         <entry key="app/src/main/res/drawable/clavesol_background.xml" value="0.162" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16354166666666667" />
         <entry key="app/src/main/res/layout/activity_modulo_i.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_tela_caracteristicas_iii.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tela_caracteristicasii.xml" value="0.16354166666666667" />
+        <entry key="app/src/main/res/layout/activity_tela_pauta.xml" value="0.16354166666666667" />
+        <entry key="app/src/main/res/layout/activity_tela_pauta_ii.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_tela_pauta_iii.xml" value="0.25425101214574897" />
         <entry key="app/src/main/res/layout/card_tela_inicial.xml" value="0.33" />
         <entry key="app/src/main/res/layout/rating_cheio.xml" value="0.16354166666666667" />
         <entry key="app/src/main/res/layout/rating_vazio.xml" value="0.16354166666666667" />

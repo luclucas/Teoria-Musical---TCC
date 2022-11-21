@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor_fundo"
+    tools:context=".view.moduloI.pautas.TelaPautaIII">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:text="As linhas suplementares são curtos segmentos de linhas que servem como extensão da pauta.\n\nNa imagem abaixo há o exemplo de linhas suplementares. Os espaços são contados a partir da pauta"
+            android:textColor="@color/cor_texto"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview2"
+            android:layout_width="340dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/linhas_suplementares"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview26" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/pauta_linhas_sup_ii"
+            android:textColor="@color/cor_texto"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageview2" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview28"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borda_botao"
+            android:layout_margin="20dp"
+            app:layout_constraintTop_toBottomOf="@id/textview27"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textSize="@dimen/tamanho_texto"
+            android:textColor="@color/white"
+            android:text="Obs.: Podem haver infinitas linhas suplementares, mas recomenda-se evitar muitas (acima de oito)."/>
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview3"
+            android:layout_width="340dp"
+            android:layout_height="118dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/linhas_suplementares_ii"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview28" />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao_pau_avan_iii"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintTop_toBottomOf="@id/imageview3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textAllCaps="false"
+            android:textSize="@dimen/tamanho_texto"
+            android:text="Finalizar"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/verde"
+            android:background="@drawable/botao_voltar_avancar"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao_pau_volt_iii"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintTop_toBottomOf="@id/imageview3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textAllCaps="false"
+            android:textSize="@dimen/tamanho_texto"
+            android:text="Voltar"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/vermelho"
+            android:background="@drawable/botao_voltar_avancar"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

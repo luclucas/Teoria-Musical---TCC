@@ -6,18 +6,19 @@ import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
 import com.lulu.teoriamusical.R
 
-class TelaPauta : AppCompatActivity() {
-
-    private lateinit var botaoAvancar:AppCompatButton
-
+class TelaPautaII : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tela_pauta)
+        setContentView(R.layout.activity_tela_pauta_ii)
 
-        botaoAvancar = findViewById(R.id.botao_pau_avan_i)
+        val botaoAvancar:AppCompatButton = findViewById(R.id.botao_pau_avan_ii)
         botaoAvancar.setOnClickListener{
-            startActivity(Intent(this, TelaPautaII::class.java))
+            startActivity(Intent(this, TelaPautaIII::class.java))
         }
 
+        val botaoVoltar:AppCompatButton = findViewById(R.id.botao_pau_volt_ii)
+        botaoVoltar.setOnClickListener{
+            finish()
+        }
     }
 }
