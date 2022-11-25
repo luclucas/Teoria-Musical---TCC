@@ -37,6 +37,18 @@ class ModuloI : AppCompatActivity() {
         retornarIntent(Telas.PAUTA)
     }
 
+    fun irClaveSol(view:View){
+        retornarIntent(Telas.CLAVE_SOL)
+    }
+
+    fun irClaveFa(v:View){
+        retornarIntent(Telas.CLAVE_FA)
+    }
+
+    fun irDuracoes(v:View){
+        retornarIntent(Telas.DURACOES)
+    }
+
     private fun retornarIntent(t: Telas){
         startActivity(Intent(this, t.e))
         }

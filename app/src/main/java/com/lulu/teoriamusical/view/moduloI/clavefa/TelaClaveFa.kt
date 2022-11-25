@@ -1,12 +1,12 @@
-package com.lulu.teoriamusical.view.moduloI
+package com.lulu.teoriamusical.view.moduloI.clavefa
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.lulu.teoriamusical.R
 
-class TelaClaveSol : AppCompatActivity() {
+class TelaClaveFa : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tela_clave_sol)
+        setContentView(R.layout.activity_tela_clave_fa)
     }
 }

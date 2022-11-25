@@ -15,55 +15,76 @@
         tools:targetApi="31">
         <activity
             android:name=".view.moduloI.pautas.TelaPautaIII"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.pautas.TelaPautaII"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.pautas.TelaPauta"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.notas.TelaNotasIII"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.notas.TelaNotasII"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.caracteristicas.TelaCaracteristicasIII"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.caracteristicas.TelaCaracteristicasII"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.caracteristicas.TelaCaracteristicas"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.TelaIntroducao"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".view.moduloI.TelaDuracoes"
-            android:exported="false" />
+            android:name=".view.moduloI.duracoes.TelaDuracoes"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".view.moduloI.TelaClaveFa"
-            android:exported="false" />
+            android:name=".view.moduloI.clavesol.TelaClaveSol"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.moduloI.clavefa.TelaClaveFa"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.notas.TelaNotas"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.TelaQuiz"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloIV.ModuloIV"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloIII.ModuloIII"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloII.ModuloII"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.moduloI.ModuloI"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.MainActivity"
             android:exported="true">
