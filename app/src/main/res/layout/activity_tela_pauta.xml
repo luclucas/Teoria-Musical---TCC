@@ -4,50 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.moduloI.pautas.TelaPauta"
-    android:background="@color/cor_fundo">
+    android:background="@color/cor_fundo"
+    tools:context=".view.moduloI.pautas.TelaPauta">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:text="Na seção anterior, vimos um exemplo de partitura com a escala maior de Dó. \n\n''Mas como se lê uma pauta?'', você pode estar se perguntando\n\nSuas dúvidas serão sanadas. Nesta seção e nas próximas duas, estudaremos a pauta musical."
+        android:textColor="@color/cor_texto"
+        android:textSize="@dimen/tamanho_texto"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:textSize="@dimen/tamanho_texto"
-        android:textColor="@color/cor_texto"
-        android:text="Na seção anterior, vimos um exemplo de partitura com a escala maior de Dó. \n\n''Mas como se lê uma pauta?'', você pode estar se perguntando\n\nSuas dúvidas serão sanadas. Nesta seção e nas próximas duas, estudaremos a pauta musical." />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botao_pau_avan_i"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
         android:layout_marginRight="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:textAllCaps="false"
-        android:textSize="@dimen/tamanho_texto"
-        android:text="Avançar"
-        android:textColor="@color/white"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_voltar_avancar"
         android:backgroundTint="@color/verde"
-        android:background="@drawable/botao_voltar_avancar"/>
+        android:text="Avançar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tamanho_texto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botao_pau_volt_i"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
         android:layout_marginLeft="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:textAllCaps="false"
-        android:textSize="@dimen/tamanho_texto"
-        android:text="Voltar"
-        android:textColor="@color/white"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_voltar_avancar"
         android:backgroundTint="@color/cinza"
-        android:background="@drawable/botao_voltar_avancar"/>
+        android:text="Voltar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tamanho_texto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

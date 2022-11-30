@@ -52,17 +52,17 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/textview28"
-            android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/borda_botao"
             android:layout_margin="20dp"
-            app:layout_constraintTop_toBottomOf="@id/textview27"
+            android:background="@drawable/borda_botao"
+            android:padding="20dp"
+            android:text="Obs.: Podem haver infinitas linhas suplementares, mas recomenda-se evitar muitas (acima de oito)."
+            android:textColor="@color/white"
+            android:textSize="@dimen/tamanho_texto"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:textSize="@dimen/tamanho_texto"
-            android:textColor="@color/white"
-            android:text="Obs.: Podem haver infinitas linhas suplementares, mas recomenda-se evitar muitas (acima de oito)."/>
+            app:layout_constraintTop_toBottomOf="@id/textview27" />
 
 
         <androidx.appcompat.widget.AppCompatImageView
@@ -78,40 +78,39 @@
             app:layout_constraintTop_toBottomOf="@id/textview28" />
 
 
-
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/botao_pau_avan_iii"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:layout_marginRight="60dp"
             android:layout_marginTop="80dp"
-            app:layout_constraintTop_toBottomOf="@id/imageview3"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/botao_voltar_avancar"
+            android:backgroundTint="@color/verde"
+            android:text="Finalizar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tamanho_texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:textAllCaps="false"
-            android:textSize="@dimen/tamanho_texto"
-            android:text="Finalizar"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/verde"
-            android:background="@drawable/botao_voltar_avancar"/>
+            app:layout_constraintTop_toBottomOf="@id/imageview3" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/botao_pau_volt_iii"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="80dp"
-            app:layout_constraintTop_toBottomOf="@id/imageview3"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/botao_voltar_avancar"
+            android:backgroundTint="@color/vermelho"
+            android:text="Voltar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tamanho_texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            android:textAllCaps="false"
-            android:textSize="@dimen/tamanho_texto"
-            android:text="Voltar"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/vermelho"
-            android:background="@drawable/botao_voltar_avancar"/>
+            app:layout_constraintTop_toBottomOf="@id/imageview3" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

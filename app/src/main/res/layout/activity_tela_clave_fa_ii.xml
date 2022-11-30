@@ -4,37 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cor_fundo"
-    tools:context=".view.moduloI.clavesol.TelaClaveSol">
+    tools:context=".view.moduloI.clavefa.TelaClaveFaII"
+    android:background="@color/cor_fundo">
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/textview29"
+        android:id="@+id/textview34"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
-        android:text="Nesta seção estudaremos a Clave de Sol, que é este símbolo bonito abaixo. Todo mundo o vê em todo canto, mas que ninguém sabe para que serve.\n\nHoje é o seu dia de sorte e, depois dessa aula, poderá explicar para os outros a utilidade da Clave de Sol. "
+        android:text="Diferente da Clave de Sol, a Clave de Fá começa na quarta linha de baixo para cima.\n\nVocê pode ter uma melhor observação olhando a imagem abaixo:"
         android:textColor="@color/cor_texto"
         android:textSize="@dimen/tamanho_texto"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img_escala_fa"
+        android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginLeft="188dp"
-        android:layout_marginTop="30dp"
-        android:paddingTop="20dp"
-        android:text="𝄞"
-        android:textColor="@color/cor_texto"
-        android:textSize="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/escala_clave_fa"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview29" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview34" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textview35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:text="A Clave de Fá serve notas mais graves, sendo utilizada por instrumentos como violoncelo, contrabaixo, pessoas com a voz mais grave, entre outros."
+        android:textColor="@color/cor_texto"
+        android:textSize="@dimen/tamanho_texto"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_escala_fa" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/botao_sol_avan_i"
+        android:id="@+id/botao_fa_avan_ii"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="60dp"
@@ -49,19 +61,18 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/botao_sol_volt_i"
+        android:id="@+id/botao_fa_volt_ii"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/botao_voltar_avancar"
-        android:backgroundTint="@color/cinza"
+        android:backgroundTint="@color/vermelho"
         android:text="Voltar"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="@dimen/tamanho_texto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

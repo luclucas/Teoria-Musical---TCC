@@ -4,50 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.moduloI.caracteristicas.TelaCaracteristicas"
-    android:background="@color/cor_fundo">
+    android:background="@color/cor_fundo"
+    tools:context=".view.moduloI.caracteristicas.TelaCaracteristicas">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textview12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
         android:layout_marginRight="20dp"
-        android:textSize="@dimen/tamanho_texto"
+        android:text="Nesta seção estudaremos as características da música e do som"
         android:textColor="@color/black"
+        android:textSize="@dimen/tamanho_texto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="Nesta seção estudaremos as características da música e do som"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/botao_car_avan_i"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:layout_marginRight="60dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:textAllCaps="false"
-            android:textSize="@dimen/tamanho_texto"
-            android:text="Avançar"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/verde"
-            android:background="@drawable/botao_voltar_avancar"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/botao_car_avan_i"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_voltar_avancar"
+        android:backgroundTint="@color/verde"
+        android:text="Avançar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tamanho_texto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/botao_car_volt_i"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
         android:layout_marginLeft="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:textAllCaps="false"
-        android:textSize="@dimen/tamanho_texto"
-        android:text="Voltar"
-        android:textColor="@color/white"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_voltar_avancar"
         android:backgroundTint="@color/cinza"
-        android:background="@drawable/botao_voltar_avancar"/>
+        android:text="Voltar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tamanho_texto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

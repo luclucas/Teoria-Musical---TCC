@@ -4,65 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.moduloI.notas.TelaNotasIII"
-    android:background="@color/cor_fundo">
+    android:background="@color/cor_fundo"
+    tools:context=".view.moduloI.notas.TelaNotasIII">
 
 
-     <androidx.appcompat.widget.AppCompatTextView
-         android:id="@+id/textView21"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="40dp"
-         android:layout_marginRight="20dp"
-         android:layout_marginLeft="20dp"
-         app:layout_constraintTop_toTopOf="parent"
-         app:layout_constraintLeft_toLeftOf="parent"
-         app:layout_constraintRight_toRightOf="parent"
-         android:textSize="@dimen/tamanho_texto"
-         android:textColor="@color/cor_texto"
-         android:text="Outra forma de representar uma nota se dá por meio de partituras.\n\nAbaixo está um exemplo de partitura com a escala de Dó maior. Estudaremos a pauta musical em breve, então não entre em pânico, por enquanto."/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:text="Outra forma de representar uma nota se dá por meio de partituras.\n\nAbaixo está um exemplo de partitura com a escala de Dó maior. Estudaremos a pauta musical em breve, então não entre em pânico, por enquanto."
+        android:textColor="@color/cor_texto"
+        android:textSize="@dimen/tamanho_texto"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/escala_c_img"
-            android:layout_width="370dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/escala_c_i"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textView21"
-            app:layout_constraintRight_toRightOf="parent"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/escala_c_img"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/escala_c_i"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView21" />
 
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/botao_notas_avan_iii"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:layout_marginRight="60dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:textAllCaps="false"
-            android:textSize="@dimen/tamanho_texto"
-            android:text="Finalizar"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/verde"
-            android:background="@drawable/botao_voltar_avancar"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/botao_notas_avan_iii"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_voltar_avancar"
+        android:backgroundTint="@color/verde"
+        android:text="Finalizar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tamanho_texto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/botao_notas_volt_iii"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:layout_marginLeft="60dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            android:textAllCaps="false"
-            android:textSize="@dimen/tamanho_texto"
-            android:text="Voltar"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/vermelho"
-            android:background="@drawable/botao_voltar_avancar"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/botao_notas_volt_iii"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_voltar_avancar"
+        android:backgroundTint="@color/vermelho"
+        android:text="Voltar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tamanho_texto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

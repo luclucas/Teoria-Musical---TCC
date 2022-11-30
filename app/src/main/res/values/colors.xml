@@ -17,4 +17,7 @@
     <color name="verde">#42aa17</color>
     <color name="vermelho">#ff0000</color>
     <color name="cor_texto">#000000</color>
+    <color name="fundo_curiosidades">#c5defa</color>
+    <color name="texto_curiosidades">#353739</color>
+    <color name="titulo_curiosidades">#fbc99c</color>
 </resources>

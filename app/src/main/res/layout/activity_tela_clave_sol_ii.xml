@@ -5,104 +5,99 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cor_fundo"
-    tools:context=".view.moduloI.pautas.TelaPautaII">
+    tools:context=".view.moduloI.clavesol.TelaClaveSolII">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/textview22"
+            android:id="@+id/textview30"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:layout_marginRight="20dp"
-            android:text="@string/pauta_pent"
+            android:text="A Clave de Sol indica que na segunda linha é uma nota sol. Lembrando que as linhas são contadas de baixo para cima."
             android:textColor="@color/cor_texto"
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/textview23"
+            android:id="@+id/text_curiosidade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:text="No pentagrama ficam as notas e as linhas são contadas de baixo para cima. As  notas mais graves ficam nas primeiras notas e as mais agudas ficam nas linhas mais altas.\n\nOlhe na imagem abaixo para uma melhor visualização."
+            android:layout_margin="20dp"
+            android:background="@drawable/fundo_curiosidades"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/clave_sol_curiosidade"
+            android:textColor="@color/texto_curiosidades"
+            android:textSize="@dimen/tamanho_texto"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview30" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Para um melhor entendimento, a imagem abaixo ilustra a escala de Dó maior na Clave de Sol. \n\nNote que são contados os espaços e as linhas e, caso seja necessário adicionar mais notas, utilizam-se as linhas complementares (olhar a aula anterior em caso de dúvida)."
             android:textColor="@color/cor_texto"
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textview22" />
+            app:layout_constraintTop_toBottomOf="@id/text_curiosidade" />
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/imageview1"
-            android:layout_width="300dp"
-            android:layout_height="96dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/pauta"
-            android:scaleType="fitXY"
+            android:id="@+id/img_sol"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/img_clave_sol"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textview23" />
-
+            app:layout_constraintTop_toBottomOf="@id/textview31" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/textview24"
+            android:id="@+id/textview32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:text="Você pode perguntar, ''Ok, Ok. Mas... e se eu quiser adicionar mais notas?"
+            android:text="A Clave de Sol é utilizada para instrumentos mais agudos, como violino, violão, etc."
             android:textColor="@color/cor_texto"
             android:textSize="@dimen/tamanho_texto"
+            android:layout_margin="20dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageview1" />
+            app:layout_constraintTop_toBottomOf="@id/img_sol" />
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/textview25"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:text="@string/pauta_linhas_sup"
-            android:textColor="@color/cor_texto"
-            android:textSize="@dimen/tamanho_texto"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textview24" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/botao_pau_avan_ii"
+            android:id="@+id/botao_sol_avan_ii"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="80dp"
             android:layout_marginRight="60dp"
             android:layout_marginBottom="40dp"
             android:background="@drawable/botao_voltar_avancar"
             android:backgroundTint="@color/verde"
-            android:text="Avançar"
+            android:text="Finalizar"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textview25" />
+            app:layout_constraintTop_toBottomOf="@id/textview32" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/botao_pau_volt_ii"
+            android:id="@+id/botao_sol_volt_ii"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="80dp"
             android:layout_marginBottom="40dp"
             android:background="@drawable/botao_voltar_avancar"
             android:backgroundTint="@color/vermelho"
@@ -112,7 +107,7 @@
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textview25" />
+            app:layout_constraintTop_toBottomOf="@id/textview32" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

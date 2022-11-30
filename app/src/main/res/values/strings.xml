@@ -14,4 +14,6 @@
     <string name="pauta_pent">A <b>pauta</b> ou <b>pentagrama</b> consiste em cinco linhas e quatro espaços (eu sei que parece um pouco abstrato, por isso olhe a imagem abaixo).</string>
     <string name="pauta_linhas_sup">Para isso existem as <b>linhas suplementares</b>. Veremos mais na próxima página.</string>
     <string name="pauta_linhas_sup_ii">Existem algumas regras para as linhas suplementares que podem ser vistas melhor na imagem abaixo. As regras são:\n<b>1.</b> A largura da linha suplementar deve ser um pouco maior que a cabeça da nota;\n\n<b>2.</b> As linhas suplementares são individuais para cada nota;\n\n<b>3.</b> Não é necessária uma linha suplementar em cima de uma nota caso não haja notas acima dela.</string>
+
+    <string name="clave_sol_curiosidade"><font color="#793D00"><b>Curiosidade</b></font>\n\n<font color="#353739">A palavra \'\'clave\'\' vem do latim e significa \'\'chave\'\'</font></string>
 </resources>
