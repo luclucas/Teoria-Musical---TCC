@@ -5,75 +5,72 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cor_fundo"
-    tools:context=".view.moduloI.clavefa.TelaClaveFaIII">
+    tools:context=".view.moduloI.duracoes.TelaDuracoesIII">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/textview36"
+            android:id="@+id/textview39"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:layout_marginRight="20dp"
-            android:text="Existem alguns instrumentos que utilizam ambas as claves ao mesmo tempo, sendo eles o piano e seus semelhantes. Isso se dá, pois a extensão é muito grande (os pianos mais comuns possuem 88 teclas). \n\nGeralmente as notas da Clave de Fá são executadas pela mão esquerda, enquanto as da Clave de Sol pela mão direita.\n\nNa imagem abaixo você vê um exemplo da escala de Dó em ambas as claves."
+            android:text="A primeira figura é a semibreve, que tem a duração de um tempo do compasso. \n\nApróxima figura é a mínima, que dura a metade do tempo da semibreve, ou seja, se uma semibreve vale 4 batidas, a mínima valerá 2 batidas.\n\n E assim por diante, se você olhar na imagem abaixo, verá as figuras com seus nomes e a duração delas, que vão se dividindo por 2 cada vez \n\nObs.: Se você ficou confuso sobre tempo e compasso, não se preocupe. Estudaremos isso futuramente."
             android:textColor="@color/cor_texto"
             android:textSize="@dimen/tamanho_texto"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/escala_fa_sol"
+            android:id="@+id/imageview6"
             android:layout_width="350dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="32dp"
-            android:background="@drawable/escala_fa_sol"
-            app:layout_constraintHorizontal_bias="0.491"
+            android:layout_height="300dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/figura_escada"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textview36" />
+            app:layout_constraintTop_toBottomOf="@id/textview39" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/textview37"
+            android:id="@+id/textview40"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:text="É importante saber que o último dó na Clave de Fá e o primeiro dó na Clave de Sol estão na mesma altura."
+            android:layout_margin="20dp"
+            android:text="Note que figuras com hastes podem se ligar. Veremos como é feita a escrita numa partitura mais para frente."
             android:textColor="@color/cor_texto"
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/escala_fa_sol" />
-
+            app:layout_constraintTop_toBottomOf="@id/imageview6" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/botao_fa_avan_iii"
+            android:id="@+id/botao_dura_avan_iii"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="60dp"
             android:layout_marginRight="60dp"
             android:layout_marginBottom="40dp"
             android:background="@drawable/botao_voltar_avancar"
             android:backgroundTint="@color/verde"
-            android:text="Finalizar"
+            android:text="Avançar"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/escala_fa_sol" />
+            app:layout_constraintTop_toBottomOf="@id/textview40" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/botao_fa_volt_iii"
+            android:id="@+id/botao_dura_volt_iii"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="140dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
             android:layout_marginBottom="40dp"
             android:background="@drawable/botao_voltar_avancar"
             android:backgroundTint="@color/vermelho"
@@ -83,7 +80,11 @@
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/escala_fa_sol" />
+            app:layout_constraintTop_toBottomOf="@id/textview40"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

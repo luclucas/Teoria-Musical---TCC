@@ -4,6 +4,12 @@ import android.content.Context
 import android.media.MediaPlayer
 import com.lulu.teoriamusical.enums.Escolhas
 
+/*
+* Classe responsável pelas mídias de audio que existirão durante a aplicacao
+*
+*
+* */
+
 class Midia {
     var mp = MediaPlayer()
 

@@ -50,7 +50,10 @@
         <entry key="app/src/main/res/layout/activity_tela_clave_fa_iv.xml" value="0.16354166666666667" />
         <entry key="app/src/main/res/layout/activity_tela_clave_sol.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_tela_clave_sol_ii.xml" value="0.33547008547008544" />
-        <entry key="app/src/main/res/layout/activity_tela_duracoes.xml" value="0.16354166666666667" />
+        <entry key="app/src/main/res/layout/activity_tela_duracoes.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_tela_duracoes_ii.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_tela_duracoes_iii.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_tela_duracoes_iv.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_tela_notas.xml" value="0.16354166666666667" />
         <entry key="app/src/main/res/layout/activity_tela_notas_ii.xml" value="0.16354166666666667" />
         <entry key="app/src/main/res/layout/activity_tela_notas_iii.xml" value="0.16354166666666667" />

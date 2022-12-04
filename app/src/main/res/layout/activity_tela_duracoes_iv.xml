@@ -4,31 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.moduloI.duracoes.TelaDuracoes"
-    android:background="@color/cor_fundo">
+    android:background="@color/cor_fundo"
+    tools:context=".view.moduloI.duracoes.TelaDuracoesIV">
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textview41"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Para finalizar o Módulo I, estudaremos as durações das notas. \n\nA organização e relação das durações definem o ritmo da música. \n\nPara representar a duração na partitura, utilizam-se figuras rítmicas, que estudaremos nesse capítulo."
-        android:textSize="@dimen/tamanho_texto"
-        android:textColor="@color/cor_texto"
-        android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:text="Para finalizar, temos que, para cada figura rítmica, também existe uma figura de pausa com a mesma duração. Na imagem abaixo você pode conferir a relação entre figuras e suas pausas."
+        android:textColor="@color/cor_texto"
+        android:textSize="@dimen/tamanho_texto"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageview4"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/figuras_ritmicas"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview41" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textview42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:text="As pausas da Semibreve e da Mínima são feitas sob a quarta linha e sobre a terceira linha, respectivamente."
+        android:textColor="@color/cor_texto"
+        android:textSize="@dimen/tamanho_texto"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageview4" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/botao_dura_avan_i"
+        android:id="@+id/botao_dura_avan_iv"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="60dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/botao_voltar_avancar"
         android:backgroundTint="@color/verde"
-        android:text="Avançar"
+        android:text="Finalizar"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="@dimen/tamanho_texto"
@@ -36,13 +61,13 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/botao_dura_volt_i"
+        android:id="@+id/botao_dura_volt_iv"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/botao_voltar_avancar"
-        android:backgroundTint="@color/cinza"
+        android:backgroundTint="@color/vermelho"
         android:text="Voltar"
         android:textAllCaps="false"
         android:textColor="@color/white"

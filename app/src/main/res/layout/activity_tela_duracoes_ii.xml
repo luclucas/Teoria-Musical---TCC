@@ -1,79 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cor_fundo"
-    tools:context=".view.moduloI.clavefa.TelaClaveFaIII">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    tools:context=".view.moduloI.duracoes.TelaDuracoesII">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/textview36"
+            android:id="@+id/textview34"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:layout_marginRight="20dp"
-            android:text="Existem alguns instrumentos que utilizam ambas as claves ao mesmo tempo, sendo eles o piano e seus semelhantes. Isso se dá, pois a extensão é muito grande (os pianos mais comuns possuem 88 teclas). \n\nGeralmente as notas da Clave de Fá são executadas pela mão esquerda, enquanto as da Clave de Sol pela mão direita.\n\nNa imagem abaixo você vê um exemplo da escala de Dó em ambas as claves."
+            android:text="Para começar, falaremos das figuras rítmicas e das pausas, que são um conjunto de sinais que representam as durações. As pausas servem para representar o silêncio.\n\nExistem 7 figuras rítmicas e 7 pausas. São elas: Semibreve, Mínima, Semínima, Colcheia, Semicolcheia, Fusa e Semifusa. Existem outras, porém são raras as suas utilizações"
             android:textColor="@color/cor_texto"
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/escala_fa_sol"
-            android:layout_width="350dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="32dp"
-            android:background="@drawable/escala_fa_sol"
-            app:layout_constraintHorizontal_bias="0.491"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/textview36" />
-
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/textview37"
+            android:id="@+id/textview38"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:text="É importante saber que o último dó na Clave de Fá e o primeiro dó na Clave de Sol estão na mesma altura."
+            android:layout_margin="20dp"
+            android:text="A figura ritmica se divide em três partes, sendo elas: cabeça, haste e colchete ou bandeirola. A imagem abaixo torna melhor a visualização."
             android:textColor="@color/cor_texto"
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/escala_fa_sol" />
+            app:layout_constraintTop_toBottomOf="@id/textview34" />
 
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageview5"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/partes_figura_ritmica"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview38" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/botao_fa_avan_iii"
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/botao_dura_avan_ii"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="60dp"
             android:layout_marginRight="60dp"
             android:layout_marginBottom="40dp"
             android:background="@drawable/botao_voltar_avancar"
             android:backgroundTint="@color/verde"
-            android:text="Finalizar"
+            android:text="Avançar"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/escala_fa_sol" />
+             />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/botao_fa_volt_iii"
+            android:id="@+id/botao_dura_volt_ii"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="140dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
             android:layout_marginBottom="40dp"
             android:background="@drawable/botao_voltar_avancar"
             android:backgroundTint="@color/vermelho"
@@ -83,7 +75,7 @@
             android:textSize="@dimen/tamanho_texto"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/escala_fa_sol" />
+            app:layout_constraintVertical_bias="1.0" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.core.widget.NestedScrollView>
